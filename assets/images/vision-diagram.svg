@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460">
+  <title>Face detection and hand landmarks help control the photo puzzle</title>
+  <rect width="720" height="460" rx="24" fill="#edf4fb"/>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="30" y="40" width="300" height="150" rx="18" fill="#fff" stroke="#cfdfed" stroke-width="2"/>
+    <rect x="390" y="40" width="300" height="150" rx="18" fill="#fff" stroke="#cfdfed" stroke-width="2"/>
+    <text x="180" y="82" fill="#004080" font-size="25" font-weight="700">Face detection</text>
+    <text x="540" y="82" fill="#004080" font-size="25" font-weight="700">Hand tracking</text>
+    <text x="180" y="123" fill="#334155" font-size="21">Find and capture</text><text x="180" y="155" fill="#334155" font-size="21">your photo</text>
+    <text x="540" y="123" fill="#334155" font-size="21">Locate your thumb</text><text x="540" y="155" fill="#334155" font-size="21">and index finger</text>
+    <path d="M180 198V237H360V269M540 198V237H360" fill="none" stroke="#4380b1" stroke-width="4"/>
+    <path d="M350 258L360 270L370 258" fill="none" stroke="#4380b1" stroke-width="4"/>
+    <rect x="135" y="281" width="450" height="126" rx="18" fill="#004080"/>
+    <text x="360" y="328" fill="#fff" font-size="26" font-weight="700">Pinch, move, release</text>
+    <text x="360" y="370" fill="#fff" font-size="22">The game swaps two puzzle pieces</text>
+  </g>
+</svg>

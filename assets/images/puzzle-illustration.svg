@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="660" viewBox="0 0 620 660">
+  <title>A shuffled face photo split into nine puzzle tiles</title>
+  <defs><g id="portrait">
+  <rect width="600" height="600" fill="#e8f1fb"/>
+  <path d="M60 600 Q75 435 300 435 Q525 435 540 600Z" fill="#07538f"/>
+  <path d="M248 382H352V482Q300 512 248 482Z" fill="#c9906e"/>
+  <ellipse cx="300" cy="282" rx="142" ry="171" fill="#e6b38d"/>
+  <path d="M158 284Q112 112 248 85Q405 28 449 205L442 286Q420 216 414 173Q345 212 233 176Q198 206 158 284Z" fill="#183247"/>
+  <path d="M203 261Q224 250 245 260M355 260Q375 250 395 261" fill="none" stroke="#183247" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="224" cy="290" r="9" fill="#183247"/><circle cx="376" cy="290" r="9" fill="#183247"/>
+  <path d="M297 288L286 337H306" fill="none" stroke="#be825f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M248 373Q300 414 352 373" fill="none" stroke="#8d5141" stroke-width="10" stroke-linecap="round"/>
+</g></defs>
+  <rect width="620" height="660" rx="24" fill="#f0f5fa"/>
+  <svg x="28" y="28" width="174" height="174" viewBox="200 0 200 200"><use href="#portrait"/></svg>
+      <rect x="28" y="28" width="174" height="174" fill="none" stroke="#fff" stroke-width="2" rx="7"/>
+      <rect x="38" y="166" width="31" height="26" rx="6" fill="#123b67"/>
+      <text x="53.5" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#fff">2</text><svg x="214" y="28" width="174" height="174" viewBox="0 0 200 200"><use href="#portrait"/></svg>
+      <rect x="214" y="28" width="174" height="174" fill="none" stroke="#fff" stroke-width="2" rx="7"/>
+      <rect x="224" y="166" width="31" height="26" rx="6" fill="#123b67"/>
+      <text x="239.5" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#fff">1</text><svg x="400" y="28" width="174" height="174" viewBox="400 0 200 200"><use href="#portrait"/></svg>
+      <rect x="400" y="28" width="174" height="174" fill="none" stroke="#fff" stroke-width="2" rx="7"/>
+      <rect x="410" y="166" width="31" height="26" rx="6" fill="#123b67"/>
+      <text x="425.5" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#fff">3</text><svg x="28" y="214" width="174" height="174" viewBox="0 200 200 200"><use href="#portrait"/></svg>
+      <rect x="28" y="214" width="174" height="174" fill="none" stroke="#fff" stroke-width="2" rx="7"/>
+      <rect x="38" y="352" width="31" height="26" rx="6" fill="#123b67"/>
+      <text x="53.5" y="371" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#fff">4</text><svg x="214" y="214" width="174" height="174" viewBox="400 200 200 200"><use href="#portrait"/></svg>
+      <rect x="214" y="214" width="174" height="174" fill="none" stroke="#fff" stroke-width="2" rx="7"/>
+      <rect x="224" y="352" width="31" height="26" rx="6" fill="#123b67"/>
+      <text x="239.5" y="371" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#fff">6</text><svg x="400" y="214" width="174" height="174" viewBox="200 200 200 200"><use href="#portrait"/></svg>
+      <rect x="400" y="214" width="174" height="174" fill="none" stroke="#fff" stroke-width="2" rx="7"/>
+      <rect x="410" y="352" width="31" height="26" rx="6" fill="#123b67"/>
+      <text x="425.5" y="371" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#fff">5</text><svg x="28" y="400" width="174" height="174" viewBox="0 400 200 200"><use href="#portrait"/></svg>
+      <rect x="28" y="400" width="174" height="174" fill="none" stroke="#fff" stroke-width="2" rx="7"/>
+      <rect x="38" y="538" width="31" height="26" rx="6" fill="#123b67"/>
+      <text x="53.5" y="557" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#fff">7</text><svg x="214" y="400" width="174" height="174" viewBox="400 400 200 200"><use href="#portrait"/></svg>
+      <rect x="214" y="400" width="174" height="174" fill="none" stroke="#fff" stroke-width="2" rx="7"/>
+      <rect x="224" y="538" width="31" height="26" rx="6" fill="#123b67"/>
+      <text x="239.5" y="557" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#fff">9</text><svg x="400" y="400" width="174" height="174" viewBox="200 400 200 200"><use href="#portrait"/></svg>
+      <rect x="400" y="400" width="174" height="174" fill="none" stroke="#fff" stroke-width="2" rx="7"/>
+      <rect x="410" y="538" width="31" height="26" rx="6" fill="#123b67"/>
+      <text x="425.5" y="557" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#fff">8</text>
+  <text x="310" y="626" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#004080">Arrange the pieces to restore the photo</text>
+</svg>
