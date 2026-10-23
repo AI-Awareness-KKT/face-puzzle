@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn how the Face Gesture Puzzle uses face detection and hand tracking, then play the nine-tile photo puzzle in your browser.">
+  <title>Face Gesture Puzzle Using Computer Vision</title>
+  <link rel="stylesheet" href="assets/css/details.css">
+</head>
+<body>
+  <div class="top-lang-bar"><div id="google_translate_element"></div></div>
+  <div class="logo-container">
+    <a href="../webpage/projects.html"><img src="assets/images/programme-logo.jpg" alt="AI Awareness programme: NITK, AI Awareness, CSD, and Department of Science and Technology"></a>
+  </div>
+  <header class="header"><h1>Face Gesture Puzzle Using Computer Vision</h1></header>
+  <main class="content">
+    <section class="section" aria-labelledby="game-works">
+      <img class="section-image" src="assets/images/puzzle-illustration.svg" alt="Illustration of a face photo divided into nine shuffled puzzle pieces">
+      <div class="section-copy">
+        <h2 id="game-works">How the Game Works?</h2>
+        <p>The game captures your face after you open the camera and hold still. It turns the photo into a
+          shuffled <strong>3 &times; 3 puzzle</strong>. Your task is to arrange the nine pieces to recreate the original image.</p>
+        <p>Point at a piece with your <strong>index finger</strong>, pinch your thumb and index finger together to grab it,
+          then move to another piece and release to swap them. The game keeps track of your moves and time,
+          and finishes when all nine pieces are in the correct positions.</p>
+      </div>
+    </section>
+    <section class="play-guide" aria-labelledby="how-to-play">
+      <div>
+        <h2 id="how-to-play">How to Play</h2>
+        <ol>
+          <li>Click <strong>Play Game</strong>, then <strong>Open camera</strong>. Allow access and hold still while your photo is captured.</li>
+          <li>Raise one hand with your fingers open. Use your <strong>index finger</strong> to point at a tile.</li>
+          <li><strong>Pinch</strong> your thumb and index finger together, move to another tile, then <strong>release</strong> to swap the two pieces.</li>
+          <li>Keep swapping until all nine pieces form the original photo. The game records your moves and time.</li>
+        </ol>
+      </div>
+      <div>
+        <h3>Tips</h3>
+        <ul>
+          <li>Use good lighting and keep your face and hand inside the camera view.</li>
+          <li>Open your fingers before the first pinch. Move steadily so the camera can follow your hand.</li>
+          <li>You can also use a mouse, touch, or keyboard. Try the numbered demo if you do not want to use the camera.</li>
+        </ul>
+      </div>
+    </section>
+    <section class="section hand-section" aria-labelledby="hand-tracking">
+      <div class="section-copy">
+        <h2 id="hand-tracking">How Does Hand Tracking Work</h2>
+        <p>Hand tracking uses a technology called <strong>Computer Vision</strong>, which allows computers to find
+          patterns in images. With tools like <strong>MediaPipe</strong>, the computer identifies important points
+          on your hand, such as your fingertips. These points help the game follow your hand's position and movements in real time.</p>
+        <p>In this game, the program follows your <strong>index finger</strong> to move the cursor and measures the
+          distance between your thumb and index finger. Bringing them together selects a piece;
+          opening them over another piece swaps the two.</p>
+      </div>
+      <img class="section-image" src="assets/images/hand-landmarks.jpg" alt="Hand landmark illustration showing the fingertip and joint points tracked by computer vision">
+    </section>
+    <section class="section" aria-labelledby="ml-cv">
+      <img class="section-image" src="assets/images/vision-diagram.svg" alt="Diagram showing how face detection and hand tracking support pinch-controlled puzzle swaps">
+      <div class="section-copy">
+        <h2 id="ml-cv">The Role of Machine Learning and Computer Vision</h2>
+        <p><strong>Computer Vision</strong> helps the game locate your face and track your hand in the camera feed.
+          This is how the game knows where to capture your photo and where your fingertips are as you play.</p>
+        <p><strong>Machine Learning</strong> provides the pretrained models that recognise faces and hand landmarks.
+          The game then uses those landmark positions to detect pinching and move the cursor.
+          The puzzle rules decide which pieces to swap and when the image is complete.</p>
+      </div>
+    </section>
+    <section class="features" aria-labelledby="features">
+      <h2 id="features">Features of the Game</h2>
+      <ul>
+        <li>Captures your face and creates a personalised nine-piece photo puzzle.</li>
+        <li>Tracks hand movements in real time for pinch-to-swap controls.</li>
+        <li>Supports mouse, touch, keyboard, and a camera-free numbered demo.</li>
+        <li>Tracks moves and time, with options to view the original image and shuffle again.</li>
+      </ul>
+    </section>
+    <nav class="button-container" aria-label="Project actions">
+      <a href="../webpage/projects.html">Back to Projects</a>
+      <a href="play.html" target="_blank" rel="noopener noreferrer">&#9654; Play Game</a>
+    </nav>
+  </main>
+  <script src="assets/js/translate.js"></script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
