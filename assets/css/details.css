@@ -1,0 +1,120 @@
+/* Arial, heading sizes, colors, section order, and buttons follow balloon.html. */
+    * { box-sizing: border-box; }
+    html { width: 100%; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #334155;
+      background: linear-gradient(180deg, #eef6ff, #ffffff 60%);
+    }
+    .top-lang-bar {
+      width: 100%;
+      min-height: 26px;
+      background: #f8fafc;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 0 10px;
+    }
+    .goog-te-combo { font-family: Arial, sans-serif; font-size: 11px; }
+    .logo-container {
+      background: linear-gradient(to right, #003973, #e5e5be);
+      padding: 18px 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo-container a { display: block; width: fit-content; max-width: 100%; }
+    .logo-container img {
+      display: block;
+      max-width: 100%;
+      max-height: 110px;
+      width: auto;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 10px 24px rgba(9,30,66,.08);
+    }
+    .header { background: #004080; color: #fff; text-align: center; padding: 20px 10px; }
+    .header h1 { margin: 0; font-size: 36px; line-height: 1.3; color: #fff; }
+    .content {
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    }
+    .section {
+      display: flex;
+      align-items: center;
+      margin: 0 0 40px;
+      gap: 20px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    }
+    .section .section-image {
+      display: block;
+      width: 40%;
+      max-height: 320px;
+      height: auto;
+      object-fit: contain;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0,0,0,.2);
+      flex-shrink: 0;
+    }
+    .section .section-copy { flex: 1; min-width: 0; }
+    .section p { font-size: 18px; line-height: 1.8; color: #333; margin: 18px 0; }
+    .section h2 { font-size: 30px; line-height: 1.3; color: #004080; margin: 0 0 10px; }
+    .features h2 { font-size: 24px; line-height: 1.3; color: #071130; margin: 0 0 14px; }
+    .features ul { margin: 0 0 10px 20px; padding-left: 20px; font-size: 18px; line-height: 1.8; }
+    .play-guide {
+      display: grid;
+      grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+      gap: 28px;
+      margin: 0 0 40px;
+      padding: 24px;
+      background: #f0f6fc;
+      border: 1px solid #bdd2e7;
+      border-radius: 14px;
+    }
+    .play-guide h2 { font-size: 30px; line-height: 1.3; color: #004080; margin: 0 0 12px; }
+    .play-guide h3 { font-size: 24px; line-height: 1.3; color: #004080; margin: 0 0 12px; }
+    .play-guide ol, .play-guide ul { font-size: 18px; line-height: 1.8; color: #333; padding-left: 23px; margin: 0; }
+    .play-guide li + li { margin-top: 8px; }
+    .button-container { text-align: center; margin-top: 30px; padding-bottom: 10px; }
+    .button-container a {
+      display: inline-block;
+      text-decoration: none;
+      padding: 12px 25px;
+      font-size: 20px;
+      line-height: 1.4;
+      background: #004080;
+      color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,.1);
+      transition: background-color .3s;
+      margin: 0 12px;
+    }
+    .button-container a:hover { background: #003060; }
+    a:focus-visible { outline: 3px solid #1279d3; outline-offset: 4px; }
+    @media (max-width: 768px) {
+      .section { flex-direction: column; }
+      .section .section-image { width: 100%; }
+      .hand-section .section-copy { order: 1; }
+      .hand-section .section-image { order: 2; }
+      .button-container a { display: block; margin: 10px auto; width: fit-content; max-width: 100%; }
+      .content { padding: 18px; }
+      .logo-container img { max-height: 80px; }
+      .play-guide { grid-template-columns: 1fr; gap: 22px; }
+    }
+    @media (max-width: 420px) {
+      .header h1 { font-size: 29px; }
+      .section { padding: 16px; }
+      .section h2 { font-size: 26px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .button-container a { transition: none; }
+    }
